@@ -1,0 +1,55 @@
+#OpacityPic2 {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin-top: 25px;
+  margin-left: 15%;
+  margin-bottom: -250px;
+  align-items: center;   
+  box-shadow: inset 10em 3em yellow;
+  box-shadow: 5px 5px 8px rgb(255, 0, 170), 10px 10px 8px rgb(0, 255, 255), 15px 15px 8px rgb(165, 0, 241);
+  border-radius: 25px;
+   
+}
+
+
+       
+ #OpacityPic:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    zoom: 1;
+  }
+
+
+* {
+  box-sizing: border-box;
+}
+.parent {
+  position: relative;
+  max-width: 750px;
+  margin: 0 auto;
+  margin-left: 40%;
+  margin-bottom: -500px;
+  border-radius: 25px;
+}
+.parent img {
+  vertical-align: middle;
+}
+.parent .text {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);/* Fallback color */
+  background: rgba(0, 0, 0, 0.5);/* Black background with opacity */
+  color: #ffffff;
+  width: 650px;
+  padding: 20px;
+  margin-left: 15%;
+}
+
+@media screen and (max-width: 960px) {
+    #OpacityPic2 {
+        display: none;
+    }
+}

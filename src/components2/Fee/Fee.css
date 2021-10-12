@@ -1,0 +1,17 @@
+
+.flex_box_fee_container{
+    font-size: 25px;
+    width: 95%;
+    scroll-behavior: smooth;
+}
+.Dollar{
+    color: red;
+}
+.FLat_Fee{ 
+    margin-left: 15px;
+}
+p{
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    font-style: italic;
+}

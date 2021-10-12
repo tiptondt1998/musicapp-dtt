@@ -1,0 +1,12 @@
+
+
+#theUserIcon{
+    cursor: pointer;
+    background: none;
+    color: #ffff;
+}
+@media screen and (max-width: 768px){
+    #theUserIcon{
+        display: none;
+    }
+}

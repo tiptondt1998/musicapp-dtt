@@ -1,0 +1,12 @@
+#SearchBar{
+  max-width: 65%;
+  align-items: center;
+  margin-left: 19%;
+  border: none;
+  margin-top: -270px;
+  margin-bottom: 300px;
+}
+
+label {
+    color: rgb(0, 199, 133);
+}

@@ -1,0 +1,107 @@
+.SearchBar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.instrumentals_display_container{
+    display: flex;
+    justify-content: center; 
+   
+}
+
+.instrumentals_card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -250px;
+
+   
+}
+
+.load_more_container{
+    display: flex;
+    justify-content: center;
+}
+
+.load_more{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    align-items: center;
+    background-color: rgb(255, 145, 0);
+    border: none;
+    height: 50px;
+    font-size: 15px;
+    width: 200px;
+    border-radius: 10px;
+}
+.insta_card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px;
+    margin: 2px;
+    background: #ffff;
+    border-style: solid;
+    border-color: rgb(218, 218, 218);
+    width: 1200px;
+    height: 70px;
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .instrumentals_display_container{
+        display: flex;
+        justify-content: center; 
+       
+    }
+    
+    .instrumentals_card{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -250px;
+    
+       
+    }
+    
+    .load_more_container{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .load_more{
+        display: flex;
+        justify-content: center;
+        color: #ffff;
+        align-items: center;
+        background-color: rgb(255, 145, 0);
+        border: none;
+        height: 50px;
+        font-size: 15px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    .insta_card{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px;
+        margin: 2px;
+        background: #ffff;
+        border-style: solid;
+        border-color: rgb(218, 218, 218);
+        width: 400px;
+        height: 70px;
+        
+    }
+
+    .title{
+        font-size: 13px;
+    }
+
+}

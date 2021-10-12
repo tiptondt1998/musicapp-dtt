@@ -1,0 +1,37 @@
+#paper {
+   border-radius: 30px;
+   box-shadow: 8px 8px 4px -4px gray;
+}
+#avatar {
+    background-color: rgb(55, 71, 90);
+    color: rgb(250, 162, 0)
+}
+
+
+
+#name {
+   margin-top: 20px;
+}
+
+#email{
+    margin: 10px;
+}
+
+#password {
+    margin: 10px;
+}
+
+#register_login_buttons {
+    color: #ffff;
+    background-color: rgb(255, 145, 0);
+    height: 50px;
+    font-size: 15px;
+}
+
+
+#bio {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+ 

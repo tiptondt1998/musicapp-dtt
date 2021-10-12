@@ -1,0 +1,11 @@
+.Subcriptions{
+    display: flex;
+    justify-content: center;
+    word-spacing: 5px;
+    font-size: 20px;
+
+}
+.underlined{
+    text-decoration: underline;
+    display: block
+}

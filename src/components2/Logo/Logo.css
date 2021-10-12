@@ -1,0 +1,20 @@
+.patch_logo{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 20px;
+    font-size: medium;
+   
+}
+
+
+@media screen and (max-width: 768px) {
+    .patch_logo{
+        display: flex;
+        justify-content: center;
+        font-size: xx-small;
+     
+        color: white;
+       
+    }
+}

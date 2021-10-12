@@ -1,0 +1,6 @@
+button {
+    text-decoration: none;
+    transition: 250ms;
+    box-shadow: 5px 5px 4px -4px gray;
+    transition: transform .2s ease-in-out;
+}
